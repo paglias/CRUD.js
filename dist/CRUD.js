@@ -6,7 +6,7 @@ var extend = function( obj, extObj ) {
   obj = obj || {};
   if (arguments.length > 2) {
     for (var a = 1; a < arguments.length; a++) {
-      window.extend(obj, arguments[a]);
+      extend(obj, arguments[a]);
     }
   } else {
     for (var i in extObj) {
@@ -353,7 +353,7 @@ exports.Database.drivers = {};
 
 
 var StorageDriver = function ( conf ) {
-  this.conf = exports.extend({
+  this.conf = extend({
     name: '',
     storage: exports.localStorage
   }, conf || {});
