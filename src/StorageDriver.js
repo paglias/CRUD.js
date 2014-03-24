@@ -1,5 +1,5 @@
 var StorageDriver = function ( conf ) {
-  this.conf = exports.extend({
+  this.conf = extend({
     name: '',
     storage: exports.localStorage
   }, conf || {});
