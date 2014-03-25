@@ -1,8 +1,8 @@
 {
-  "name": "CRUD.js",
+  "name": "crud",
   "version": "1.0.0",
   "description": "A CRUD JavaScript class.",
-  "main": "CRUD.js",
+  "main": "dist/CRUD.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/HugoGiraudel/CRUD.js.git"
